@@ -5,7 +5,6 @@ buildscript {
             'kotlin'         : '1.2.71',
             'support_library': '28.0.0',
             'arch_comp'      : '1.1.1',
-            'arch_lifecycle' : '1.1.1',
             'dagger'         : '2.16',
             'rx_java'        : '2.1.5',
             'rx_android'     : '2.0.2',

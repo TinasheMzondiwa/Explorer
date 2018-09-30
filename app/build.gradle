@@ -37,8 +37,8 @@ dependencies {
     kapt "com.google.dagger:dagger-compiler:${versions.dagger}"
     kapt "com.google.dagger:dagger-android-processor:${versions.dagger}"
 
-    implementation "android.arch.lifecycle:extensions:${versions.arch_lifecycle}"
-    implementation "android.arch.lifecycle:reactivestreams:${versions.arch_lifecycle}"
+    implementation "android.arch.lifecycle:extensions:${versions.arch_comp}"
+    implementation "android.arch.lifecycle:reactivestreams:${versions.arch_comp}"
     kapt "android.arch.lifecycle:compiler:${versions.arch_comp}"
 
     implementation "io.reactivex.rxjava2:rxandroid:${versions.rx_android}"
@@ -54,5 +54,4 @@ dependencies {
     testImplementation "org.mockito:mockito-core:${versions.mockito}"
     testImplementation "org.mockito:mockito-inline:${versions.mockito}"
     testImplementation "android.arch.core:core-testing:${versions.arch_comp}"
-    testImplementation "com.nhaarman:mockito-kotlin:1.5.0"
 }

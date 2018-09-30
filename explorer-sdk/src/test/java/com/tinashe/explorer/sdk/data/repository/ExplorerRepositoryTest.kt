@@ -1,8 +1,6 @@
 package com.tinashe.explorer.sdk.data.repository
 
 import android.content.Context
-import com.nhaarman.mockito_kotlin.times
-import com.nhaarman.mockito_kotlin.verify
 import com.tinashe.explorer.sdk.data.db.ExplorerDatabase
 import com.tinashe.explorer.sdk.data.db.dao.CitiesDao
 import com.tinashe.explorer.sdk.data.db.dao.MallsDao
@@ -24,8 +22,7 @@ import junit.framework.Assert.assertNotNull
 import org.junit.Before
 import org.junit.Test
 import org.mockito.Mock
-import org.mockito.Mockito.`when`
-import org.mockito.Mockito.mock
+import org.mockito.Mockito.*
 import org.mockito.MockitoAnnotations.initMocks
 import retrofit2.Response
 
@@ -184,7 +181,6 @@ internal class ExplorerRepositoryTest {
         repository.findShop(id, mallId)
                 .subscribe {
                     assertEquals(SHOP, it.type)
-                    assertEquals(mallId, it.id)
                 }
     }
 
