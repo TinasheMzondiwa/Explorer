@@ -5,7 +5,9 @@ Submission for technical assessment
 * Gives you a clear list of all cities.  
 * Gives you a clear list of malls in a particular city.  
 * Gives you a clear list of all shops in a particular mall.  
-* Gives you a clear list of all shops in a particular city.  
+* Gives you a clear list of all shops in a particular city.
+#### Screenshots
+<img src="art/1.png" width="25%" /><img src="art/2.png" width="25%" /><img src="art/3.png" width="25%" />
 
 ### What it does [SDK]
 * You can request a list of cities.  
