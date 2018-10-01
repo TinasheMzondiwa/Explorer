@@ -1,6 +1,8 @@
 # Explorer
 Submission for technical assessment
 
+[![CircleCI](https://circleci.com/gh/TinasheMzondiwa/Explorer/tree/master.svg?style=shield)](https://circleci.com/gh/TinasheMzondiwa/Explorer/tree/master)
+
 ### What it does [App]
 * Gives you a clear list of all cities.  
 * Gives you a clear list of malls in a particular city.  
