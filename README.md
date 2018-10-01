@@ -18,9 +18,7 @@ Submission for technical assessment
 * By default all queries can be handled offline.  
 
 ### Communication with sdk
-* Communication with the sdk is done via the [ExplorerRepository](
-      Explorer/explorer-sdk/src/main/java/com/tinashe/explorer/sdk/data/repository/ExplorerRepository.kt
-    ) class
+* Communication with the sdk is done via the [ExplorerRepository](https://github.com/TinasheMzondiwa/Explorer/blob/master/explorer-sdk/src/main/java/com/tinashe/explorer/sdk/data/repository/ExplorerRepository.kt) class
 * Get an instance of ExplorerRepository by calling `val repository = ExplorerSdk.getRepository(context)`  
 * Responses are in RxJava's [Observable](http://reactivex.io/RxJava/javadoc/io/reactivex/Observable.html) and [Maybe](http://reactivex.io/RxJava/javadoc/io/reactivex/Maybe.html)
 
