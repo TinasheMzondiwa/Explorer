@@ -21,9 +21,10 @@ Submission for technical assessment
 
 ### Communication with sdk
 * Communication with the sdk is done via the [ExplorerRepository](https://github.com/TinasheMzondiwa/Explorer/blob/master/explorer-sdk/src/main/java/com/tinashe/explorer/sdk/data/repository/ExplorerRepository.kt) class
-* Get an instance of ExplorerRepository by calling `val repository = ExplorerSdk.getRepository(context)`  
+* Get an instance of ExplorerRepository by calling 
+`val repository = ExplorerSdk.getRepository(context)`  
 * Responses are in RxJava's [Observable](http://reactivex.io/RxJava/javadoc/io/reactivex/Observable.html) and [Maybe](http://reactivex.io/RxJava/javadoc/io/reactivex/Maybe.html)
 * Background subscriptions are handled for you, you just need to `observeOn(AndroidSchedulers.mainThread())`
 
 ### Android Studio IDE setup
-Requires Android Studio version 3.2 or higher.
+Requires [Android Studio](https://developer.android.com/studio/) version 3.2 or higher.
